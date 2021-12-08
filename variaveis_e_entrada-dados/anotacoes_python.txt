@@ -1,0 +1,19 @@
+    
+"""
+    SAIDA DE DADOS
+    FORMAT    
+    print("{}".format(variavel))
+    
+    f String
+    print(f"{variavel")
+    
+"""
+"""
+COMPOSICOES DECIMAIS
+
+print(f"Dias perdidos:{reducao_dias:.2f}")
+
+DIVISAO COM RESULTADO INTEIRO: //
+
+"""
+
