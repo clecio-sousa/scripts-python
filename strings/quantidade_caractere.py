@@ -1,5 +1,5 @@
 nome = input("Digite um nome: ")
 
-for letra in nome:
-
-    print(nome.count(letra), letra)
+for i, letra in nome:
+    if nome[i] == letra:
+        print(nome.count(letra), letra)
