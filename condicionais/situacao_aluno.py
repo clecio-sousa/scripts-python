@@ -4,14 +4,16 @@ serie = input("Digite a serie do aluno: ")
 
 qtde_notas = 0
 soma_notas = 0
+questao = 1
 
 while True:
-    nota = float(input("Digite a nota: "))
+    nota = float(input("Digite a %dº nota: " % questao))
     if nota == 0:
         break
     else:
-        soma_notas = soma_notas + nota
-        qtde_notas = qtde_notas + 1
+        soma_notas += nota
+        qtde_notas += 1
+        questao += 1
 
 media = float(soma_notas / qtde_notas)
 aprovado = media >= 7
@@ -29,9 +31,6 @@ elif recuperacao:
 
 elif reprovado:
     print("REPROVADO. Media:{:.2f} ".format(media))
-
-
-
 
 """#  Condicoes de aprovacao
 n1 = float(input("digite a nota: "))
