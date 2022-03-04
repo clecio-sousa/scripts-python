@@ -12,5 +12,7 @@ while True:
     print(notas)
 media = soma_nota/qtde_notas
 
-print(notas)
-print(media)
+
+print(f"Quantidade de notas obtidas: {qtde_notas}")
+
+print(f"Media do aluno: {media}")
