@@ -3,11 +3,13 @@ soma_nota = 0
 qtde_notas = 0
 
 while True:
-    i = float(input("Digite a nota: "))
-    if i == -1:
+
+    nota = float(input("Digite a nota: "))
+    if nota == -1:
+
         break
-    notas.append(i)
-    soma_nota += i
+    notas.append(nota)
+    soma_nota += nota
     qtde_notas += 1
     print(notas)
 media = soma_nota/qtde_notas
@@ -16,3 +18,4 @@ media = soma_nota/qtde_notas
 print(f"Quantidade de notas obtidas: {qtde_notas}")
 
 print(f"Media do aluno: {media}")
+
