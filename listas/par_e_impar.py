@@ -1,6 +1,7 @@
-par =[]
+par = []
 impar = []
 total = []
+
 
 while True:
     numero = int(input("Digite um numero :"))
@@ -9,12 +10,12 @@ while True:
 
     elif numero % 2 == 0:
         par.append(numero)
-        par.append(total)
 
     elif numero % 2 != 0:
         impar.append(numero)
-        impar.append(total)
 
+total = par + impar
+total.sort(reverse=False)
 print("Pares : {}".format(par))
 print("Impares : {}".format(impar))
 print("Total : {}".format(total))
