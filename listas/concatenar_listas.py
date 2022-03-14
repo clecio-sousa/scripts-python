@@ -3,10 +3,10 @@ lista_b = []
 lista_inter = []
 
 for i in range(10):
-    lista_a.append(int(input("Digite o %dº numero: " % (i + 1) + '\n')))
+    lista_a.append(int(input("Digite o %dº numero: " % (i + 1))))
 
 for j in range(10):
-    lista_b.append(int(input("Digite o %dº numero: " % (j + 1) + '\n')))
+    lista_b.append(int(input("Digite o %dº numero: " % (j + 1))))
 
 for k in range(10):
     lista_inter.append(lista_a[k])
