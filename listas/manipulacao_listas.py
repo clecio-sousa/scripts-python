@@ -3,6 +3,8 @@ lista = ['clecio', 'jesus', 'maria', 'pedro']
 # INDEX
 posicao = lista.index('maria')
 print(posicao)
+print('clecio' in lista)
+print('carlos' not in lista)
 
 # COUNT
 posicao = lista.count('jesus')
