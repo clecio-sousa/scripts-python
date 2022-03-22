@@ -40,7 +40,12 @@ print(lista6)
 
 # MIN E MAX
 
-lista6 = [3, 5, 6, 7, 2, 1]
+lista6 = [1, 2, 3, 4, 5]
 print(min(lista6))
 print(max(lista6))
+
+#  DEL
+
+del(lista6[2])
+print(lista6)
 
