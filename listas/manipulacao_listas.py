@@ -43,6 +43,7 @@ print(lista6)
 lista6 = [1, 2, 3, 4, 5]
 print(min(lista6))
 print(max(lista6))
+lista6.pop(0)
 
 #  DEL
 
