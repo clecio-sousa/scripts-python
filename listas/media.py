@@ -6,8 +6,8 @@ while True:
 
     nota = float(input("Digite a nota: "))
     if nota == -1:
-
         break
+
     notas.append(nota)
     soma_nota += nota
     qtde_notas += 1
