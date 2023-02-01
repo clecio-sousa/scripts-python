@@ -8,16 +8,25 @@ FORMATANDO VALORES
 
 """
 
-texto = 'Clecio Sousa'
+texto = '     maria de jesus'
 print(texto[5:])
 
-nome = "Clecio Sousa"
-print('clecio' in nome.lower())
+nome = "clecio"
+sobrenome = "sousa"
+print('clecio' in nome)
 
 #  Contagem
-print(nome.count('Clecio'))
+print(nome.count('c'))
 
-#  Pesquinsa
+#  Pesquisa
 print(nome.find('Sou'))
+
+# concatenacao
+
+print(nome + ' ' + sobrenome)
+
+# espacos em branco
+
+print(texto.strip())
 
 
