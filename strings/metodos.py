@@ -8,7 +8,7 @@ print('maiusculo'.upper())
 print('MINUSCULO'.lower())
 
 # REPLACE
-print('clecio sousa'.replace('c', 'b'))
+print('clecio sousa'.replace('s', 'z'))
 
 # COUNT
 print('clecio sousa'.count('s'))
