@@ -1,5 +1,6 @@
 if False:
-    print('verdadeiro')
+
+    print("verdadeiro")
 
 else:
     print("Falso")

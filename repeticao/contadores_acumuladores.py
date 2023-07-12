@@ -1,11 +1,17 @@
 contador = 0
 acumulador = 0
-while contador <= 5:
-    print(contador, acumulador)
-    acumulador += contador
-    contador += 1
-else:
-    print("FIM!!")
+soma = 0
 
-print(acumulador)
+print("contador"+'|'+ "acumulador")
+
+while contador <= 5:
+    contador += 1
+    acumulador += contador # ACUMULA OS NUMEROS DO IMPRESSOS NO CONTADOR
+    soma = soma + acumulador
+    print('\t', contador, '\t\t', acumulador)
+
+
+print(f'TOTAL ACUMULADOR:{acumulador}')
+print(f'TOTAL ACUMULADOR:{soma}')
+
 
