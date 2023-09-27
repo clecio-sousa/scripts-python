@@ -12,5 +12,5 @@ cadastro = {
 }
 
 
-filhos = cadastro.get('filhos')
-print(filhos)
+filho = cadastro.get('filho', None)
+print(filho)

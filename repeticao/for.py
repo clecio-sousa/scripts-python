@@ -5,5 +5,15 @@ for i in sequencia:
 
 
 
-for i in range(0, 10, 2):
+"""for i in range(0, 10, 2):
     print(i)
+"""
+
+for x in range(1, 30):
+    y = x
+else:
+    print(y)
+    print(x)
+x = 10
+while x != 0:
+    print(x)
