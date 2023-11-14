@@ -4,6 +4,6 @@
 
 
 fruta_1 = {'abacate'}
-nome = set('clecio')
+nome = set('abacate')
 print(fruta_1)
 print(nome)
