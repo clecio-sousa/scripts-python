@@ -9,19 +9,18 @@ print(resultado)
 
 def soma_args(maximo, *numeros):
     resultado = 0
-    soma_numeros = []
+    numeros_somados = []
 
     for numero in numeros:
         if (resultado + numero) > maximo:
             break
 
         resultado += numero
-        soma_numeros.append(numero)
+        numeros_somados.append(numero)
 
-    return resultado, soma_numeros
+    return resultado, numeros_somados
 
 
-soma_resultado, numeros_somados = soma_args(100, 20, 30, 40, 50)
+soma_resultado, numeros_somados = soma_args(100, 1, 25, 489)
 print(soma_resultado)
 print(numeros_somados)
-
